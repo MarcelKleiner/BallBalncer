@@ -1,3 +1,7 @@
+#packed files
+*.zip
+*.tar
+
 # Prerequisites
 *.d
 

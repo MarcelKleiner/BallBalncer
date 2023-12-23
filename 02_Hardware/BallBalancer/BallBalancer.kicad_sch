@@ -1,0 +1,51 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d139795d-9e27-4394-be32-ac05c337c17d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 111.76 25.4) (size 78.74 45.72) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 05645989-2b65-44ab-9e1d-2e7ba236eacc)
+    (property "Sheetname" "MotorControl_Supply" (at 111.76 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MotorControl_Supply.kicad_sch" (at 111.76 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BallBalancer"
+        (path "/d139795d-9e27-4394-be32-ac05c337c17d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 29.21 25.4) (size 77.47 45.72) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 97f62c80-ac17-4829-9f2c-b4ea071a8da4)
+    (property "Sheetname" "Main" (at 29.21 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Main.kicad_sch" (at 29.21 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Feld2" "" (at 29.21 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BallBalancer"
+        (path "/d139795d-9e27-4394-be32-ac05c337c17d" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
