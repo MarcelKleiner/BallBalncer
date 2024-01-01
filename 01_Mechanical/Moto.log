@@ -1,0 +1,43 @@
+STEP in Solid Edge konvertieren
+Datum: Mittwoch,Dezember 27,2023 01:50PM
+Quelldatei: C:\Users\marce\Documents\Repos\BallBalncer\01_Mechanical\Moto.step
+Autor: Unknown
+Organisation: Unknown
+Ausgangssystem: Autodesk Translation Framework v12.14.0.127
+
+Hardware:
+Prozessor: Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz
+Betriebssystem: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installierter Speicher: 7.94 GB
+
+Software-Informationen
+Parasolid-Version: 36.0.142
+PSBodyShop-Version: 36.0.108
+Step-Adapterversion: 13.0.163
+Solid Edge-Version: 224.00.00.101 x64
+
+Step-Importoptionen
+Facettierte Körper importieren: Ein
+Prüfkörper importieren: Aus
+Kurven importieren: Ein
+DoNotSave importieren: Ein
+Mehrere Körper als Einzelteildatei importieren: Ein
+Importoptimierung:Aus
+Flächenvernähung importieren: Ein
+Boolesche Körper importieren: Ein
+Basisformelement erstellen: Ein
+Geometrie vereinfachen: Ein
+Druckkurven importieren: Ein
+Führung importieren: C:
+Flächenvernähung importieren: Ein
+Flächen importieren: Ein
+Ausgabepfad importieren: C:\Users\marce\Documents\Repos\BallBalncer\01_Mechanical
+Aktivieren des standardmäßigen Ausgabepfads importieren: Ein
+PMI importieren: Aus
+Als interne Komponenten importieren: Aus
+Pfad importieren: 
+
+Übersetzen in Parasolid-Datentypen...
+C:\Users\marce\Documents\Repos\BallBalncer\01_Mechanical\Motor.par wird platziert
+Konvertierungsvorgang ist abgeschlossen
+Zur Übersetzung und Nachbearbeitung erforderte Gesamtzeit:00 : 00 : 01
