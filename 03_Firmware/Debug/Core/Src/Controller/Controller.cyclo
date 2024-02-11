@@ -1,0 +1,5 @@
+../Core/Src/Controller/Controller.cpp:7:1:Controller::Controller(DriveControl*, DriveControl*, IEncoder*, IEncoder*)	1
+../Core/Src/Controller/Controller.cpp:16:6:void Controller::UpdateController(float, float)	5
+../Core/Src/Controller/Controller.cpp:43:6:void Controller::ValidateAngle(float*)	3
+../Core/Src/Controller/Controller.cpp:50:6:void Controller::UpdateYPosition(float)	1
+../Core/Src/Controller/Controller.cpp:57:6:void Controller::UpdateXPosition(float)	1

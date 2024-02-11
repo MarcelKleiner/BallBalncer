@@ -1,0 +1,3125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\marce\Documents\Repos\BallBalncer\02_Hardware\BallBalancer\BallBalancer.kicad_sch</source>
+    <date>02.01.2024 10:41:18</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BallBalancer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Main.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MotorControl_Supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>594e80ea-1e82-460b-a93f-15f1119d3237</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>53fc66da-da40-4128-8473-024f3616bc07</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>5f849fdd-1e27-438d-bf9c-e28db0532fe0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>be16c20c-0e56-4c79-a82a-a0dface75c76</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/C0GNP0_Dielectric-951274.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">06035C102KAT2A</field>
+        <field name="Info">1nF; 50V; X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">581-06035C102K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="06035C102KAT2A"/>
+      <property name="Mouser Nr." value="581-06035C102K"/>
+      <property name="Info" value="1nF; 50V; X7R; -55C;+125C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>f225a746-fddb-470c-b76e-61555569ebab</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/C0GNP0_Dielectric-951274.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">06035C102KAT2A</field>
+        <field name="Info">1nF; 50V; X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">581-06035C102K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="06035C102KAT2A"/>
+      <property name="Mouser Nr." value="581-06035C102K"/>
+      <property name="Info" value="1nF; 50V; X7R; -55C;+125C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>9c588014-240f-4608-a899-854fede96b82</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>5f9dab77-b051-4e0a-b560-c3dc6d824132</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/C0GNP0_Dielectric-951274.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">06035C102KAT2A</field>
+        <field name="Info">1nF; 50V; X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">581-06035C102K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="06035C102KAT2A"/>
+      <property name="Mouser Nr." value="581-06035C102K"/>
+      <property name="Info" value="1nF; 50V; X7R; -55C;+125C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>6ae8f1ed-6304-4e25-a85d-621878ef0245</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/C0GNP0_Dielectric-951274.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">06035C102KAT2A</field>
+        <field name="Info">1nF; 50V; X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">581-06035C102K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="06035C102KAT2A"/>
+      <property name="Mouser Nr." value="581-06035C102K"/>
+      <property name="Info" value="1nF; 50V; X7R; -55C;+125C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>ff62f468-3ca4-4443-96f5-3f2c5c0972c5</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>d6852c20-3766-445a-83b9-07a45d572a13</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_R</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">150060RS75000</field>
+        <field name="Info">Red; 20mA; 2V</field>
+        <field name="Mouser Nr.">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Hersteller Nr." value="150060RS75000"/>
+      <property name="Mouser Nr." value="710-150060RS75000"/>
+      <property name="Info" value="Red; 20mA; 2V"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>981d752f-9968-4159-830a-c2f16f8d8c4f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_G</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">150060VS75000</field>
+        <field name="Info">Green; 20mA; 2V</field>
+        <field name="Mouser Nr.">710-150060VS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Hersteller Nr." value="150060VS75000"/>
+      <property name="Mouser Nr." value="710-150060VS75000"/>
+      <property name="Info" value="Green; 20mA; 2V"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>f0159c3a-816b-4305-a6d8-2f407823a185</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>MM5Z3V3</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/308/MM5Z2V4T1-D-108556.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">MM5Z3V3T1G</field>
+        <field name="Info">3.3V; 500mW </field>
+        <field name="Mouser Nr.">863-MM5Z3V3T1G</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Hersteller Nr." value="MM5Z3V3T1G"/>
+      <property name="Mouser Nr." value="863-MM5Z3V3T1G"/>
+      <property name="Info" value="3.3V; 500mW "/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>146e1484-5d15-41e1-b5a6-fb85af081e15</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>MM5Z3V3</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/308/MM5Z2V4T1-D-108556.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">MM5Z3V3T1G</field>
+        <field name="Info">3.3V; 500mW </field>
+        <field name="Mouser Nr.">863-MM5Z3V3T1G</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Hersteller Nr." value="MM5Z3V3T1G"/>
+      <property name="Mouser Nr." value="863-MM5Z3V3T1G"/>
+      <property name="Info" value="3.3V; 500mW "/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>3b2d283c-bbda-40c4-a80e-a5e72cdfdc7b</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>MM5Z3V3</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/308/MM5Z2V4T1-D-108556.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">MM5Z3V3T1G</field>
+        <field name="Info">3.3V; 500mW </field>
+        <field name="Mouser Nr.">863-MM5Z3V3T1G</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Hersteller Nr." value="MM5Z3V3T1G"/>
+      <property name="Mouser Nr." value="863-MM5Z3V3T1G"/>
+      <property name="Info" value="3.3V; 500mW "/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>fd3f3743-cf20-40c5-b072-177087b6d4bb</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>MM5Z3V3</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/308/MM5Z2V4T1-D-108556.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">MM5Z3V3T1G</field>
+        <field name="Info">3.3V; 500mW </field>
+        <field name="Mouser Nr.">863-MM5Z3V3T1G</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Hersteller Nr." value="MM5Z3V3T1G"/>
+      <property name="Mouser Nr." value="863-MM5Z3V3T1G"/>
+      <property name="Info" value="3.3V; 500mW "/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>7b48dac1-c936-4492-a4ff-603df1d2fb67</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal</footprint>
+      <fields>
+        <field name="Hersteller Nr.">UJ2-MBH-1-SMT-TR</field>
+        <field name="Info">USB Mini B</field>
+        <field name="Mouser Nr.">490-UJ2-MBH-1-SMT</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Hersteller Nr." value="UJ2-MBH-1-SMT-TR"/>
+      <property name="Mouser Nr." value="490-UJ2-MBH-1-SMT"/>
+      <property name="Info" value="USB Mini B"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>9e3ad0d0-b334-4b5e-ab82-be61b255e4ba</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Raspberry PI UART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>60bb9095-eac2-4100-9bee-bef9a45dc444</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>SWD</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="" part="Conn_02x02_Counter_Clockwise_1" description="Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>e910de2d-47e6-4007-8eb2-e072a1788254</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Reference switch 1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>674c04a8-4568-45c6-a0d8-0e5d4400712a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>ENCODER 1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Info">Connector for AMT102 Encoder (AMT102-V)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Info" value="Connector for AMT102 Encoder (AMT102-V)"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>3d431ba4-8524-4b83-8e52-32c4820792d9</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>ENCODER 2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Info">Connector for AMT102 Encoder (AMT102-V)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Info" value="Connector for AMT102 Encoder (AMT102-V)"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>da9ab0ff-9f7d-4a10-8e29-4e9fcce2661f</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Reference switch 2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>816ec92c-6e5c-4611-9090-e54686d6d6d7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>240</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">RC0603FR-13240RL</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">603-RC0603FR-13240RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="RC0603FR-13240RL"/>
+      <property name="Mouser Nr." value="603-RC0603FR-13240RL"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>09fdd724-aad6-463f-945e-039a60675587</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>240</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">RC0603FR-13240RL</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">603-RC0603FR-13240RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="RC0603FR-13240RL"/>
+      <property name="Mouser Nr." value="603-RC0603FR-13240RL"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>7c6be54d-776d-4d29-961b-f8dee985b635</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603100KFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603100KFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603100KFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603100KFKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>b3c89488-5ac1-49f8-a7ca-f61bf9e4c260</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603100KFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603100KFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603100KFKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Mouser Nr." value="71-CRCW0603100KFKEAC"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>e4f50d15-c8a6-4d6e-9854-7b81e7e6340b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>2e065bb7-9579-4169-93ac-a1ac13d7bcd3</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">ERJ-3EKF1502V</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">667-ERJ-3EKF1502V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="ERJ-3EKF1502V"/>
+      <property name="Mouser Nr." value="667-ERJ-3EKF1502V"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>6aa79892-0858-43f2-9d4b-a42968178f54</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW06031K50JNEAC</field>
+        <field name="Info">75V; 5%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW06031K50JNEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW06031K50JNEAC"/>
+      <property name="Mouser Nr." value="71-CRCW06031K50JNEAC"/>
+      <property name="Info" value="75V; 5%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>c8c63bd4-6259-40f7-9f30-5d3371edc568</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>67f87adb-0dbe-4483-aa66-1a76875e9363</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">ERJ-PB3B3301V</field>
+        <field name="Info">75V; 0.1%; 200mW; -55C; +155C</field>
+        <field name="Mouser Nr.">667-ERJ-PB3B3301V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="ERJ-PB3B3301V"/>
+      <property name="Info" value="75V; 0.1%; 200mW; -55C; +155C"/>
+      <property name="Mouser Nr." value="667-ERJ-PB3B3301V"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>7180238b-6b47-4723-bf75-f4daa7d324fc</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW06031K00FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW06031K00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW06031K00FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Mouser Nr." value="71-CRCW06031K00FKEAC"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>0ea41de0-a1dd-426a-b1d8-bc667f9c4733</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>457905cc-18b1-4523-9a61-5d3e88ff3d92</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>8974e73f-eda1-4cda-b437-6c67774776d0</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">ERJ-PB3B3301V</field>
+        <field name="Info">75V; 0.1%; 200mW; -55C; +155C</field>
+        <field name="Mouser Nr.">667-ERJ-PB3B3301V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="ERJ-PB3B3301V"/>
+      <property name="Info" value="75V; 0.1%; 200mW; -55C; +155C"/>
+      <property name="Mouser Nr." value="667-ERJ-PB3B3301V"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>162eac29-faec-4011-b343-0cf252e02623</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW06031K00FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW06031K00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW06031K00FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Mouser Nr." value="71-CRCW06031K00FKEAC"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>28a3eaa3-0c1d-4aa0-972e-20967c5dae4e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>319e9ee8-b6a1-467b-9a0d-568224bae3e4</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>UART_RX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>d3da1f0d-464c-423e-b87d-a58f519a82a8</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>UART_TX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>45f9e6a5-4d54-4e98-9476-5099504e4bd4</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>ENCODER1_A</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>c338a50a-e2b4-44c2-99ba-4003d2a24cfc</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>REF_MOT1</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>8676a9f3-30cd-4fd6-a1a6-adf0dbef9429</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>ENCODER1_B</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>8ec632fe-7d62-41b5-8475-30284c49cb53</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>ENCODER2_A</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>3af953fc-5ee0-428d-bbef-e917a0eea0d9</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>REF_MOT2</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>9424b07d-c038-4a32-aa9e-6cd1c9374f5c</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>ENCODER2_B</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>72658b44-8387-4fb5-b29a-a22f29d80442</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>IN_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>438f50a4-3d0f-42ce-9a02-b51cb109882f</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>IN_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>0d845b22-7ebf-43cd-92c9-b55dae45e70d</tstamps>
+    </comp>
+    <comp ref="TP22">
+      <value>IN_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>b7d8cdfd-b85e-4279-89f3-d3b42bff2c72</tstamps>
+    </comp>
+    <comp ref="TP23">
+      <value>IN_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>5fc3c098-2030-4fad-b813-1d302f887cf7</tstamps>
+    </comp>
+    <comp ref="TP24">
+      <value>IN_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>38ad7390-db74-4fd1-8b03-81b27343abfc</tstamps>
+    </comp>
+    <comp ref="TP25">
+      <value>IN_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>eeb19083-b6cb-4d9b-83b5-6381a1f7b063</tstamps>
+    </comp>
+    <comp ref="TP26">
+      <value>IN_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>fcc5c67b-97a9-4e9c-a16c-1896be33bc52</tstamps>
+    </comp>
+    <comp ref="TP27">
+      <value>IN_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>f2fe9e1c-0131-43c6-be11-dbceff032e31</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32L412K8Tx</value>
+      <footprint>Package_QFP:LQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32l412k8.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">STM32L412K8T6</field>
+        <field name="Info">80MHz; 40kB RAM; 64 kB Flash</field>
+        <field name="Mouser Nr.">511-STM32L412K8T6</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32L4" part="STM32L412K8Tx" description="STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 40KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, LQFP32"/>
+      <property name="Hersteller Nr." value="STM32L412K8T6"/>
+      <property name="Info" value="80MHz; 40kB RAM; 64 kB Flash"/>
+      <property name="Mouser Nr." value="511-STM32L412K8T6"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 40KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, LQFP32"/>
+      <property name="ki_keywords" value="Arm Cortex-M4 STM32L4 STM32L4x2"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>48cf4c19-ecbd-4baa-81c0-51a419940598</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Hersteller Nr.">USBLC6-2SC6</field>
+        <field name="Info">USB TVS</field>
+        <field name="Mouser Nr.">511-USBLC6-2SC6</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="Hersteller Nr." value="USBLC6-2SC6"/>
+      <property name="Mouser Nr." value="511-USBLC6-2SC6"/>
+      <property name="Info" value="USB TVS"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="Feld2" value=""/>
+      <property name="ki_description" value="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <sheetpath names="/Main/" tstamps="/97f62c80-ac17-4829-9f2c-b4ea071a8da4/"/>
+      <tstamps>1206c848-f1a3-46cc-b956-cf3c40b3de39</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL10B105KA8NNNC</field>
+        <field name="Info">1uF; 25V;X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">187-CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL10B105KA8NNNC"/>
+      <property name="Mouser Nr." value="187-CL10B105KA8NNNC"/>
+      <property name="Info" value="1uF; 25V;X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>e094695b-2855-49c1-ac08-66d4818604e7</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL10B105KA8NNNC</field>
+        <field name="Info">1uF; 25V;X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">187-CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL10B105KA8NNNC"/>
+      <property name="Mouser Nr." value="187-CL10B105KA8NNNC"/>
+      <property name="Info" value="1uF; 25V;X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>b05adcff-6c0c-4d4d-b852-7348fef51aeb</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>1deb2bd3-baf5-492e-9e13-57c676829cfc</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>5c3ae721-11af-42ae-baaf-e04ac33ddac2</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>330u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="Hersteller Nr.">UWT1E331MNL1GS</field>
+        <field name="Info">330uF; 25V; -55C; +105C; ALU</field>
+        <field name="Mouser Nr.">647-UWT1E331MNL1S</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Hersteller Nr." value="UWT1E331MNL1GS"/>
+      <property name="Info" value="330uF; 25V; -55C; +105C; ALU"/>
+      <property name="Mouser Nr." value="647-UWT1E331MNL1S"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>669bc103-4881-4c1f-9634-ddc68fe0ba00</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>55c91817-1fe4-431f-9670-28a628b11bc4</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">C2012X5R1V106K085AC</field>
+        <field name="Info">10uF; 35V; X5R; -55C; +85C</field>
+        <field name="Mouser Nr.">810-C2012X5R1V106K0C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="C2012X5R1V106K085AC"/>
+      <property name="Mouser Nr." value="810-C2012X5R1V106K0C"/>
+      <property name="Info" value="10uF; 35V; X5R; -55C; +85C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>718df1b1-9a8c-42ac-9fdc-24d5e9a1c115</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>5682daf8-c393-46b7-a9e7-862cc7e16a64</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>1000p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">C0805J102K5RACAUTO</field>
+        <field name="Info">1000pF; 50V; X7R; -55C; +125C</field>
+        <field name="Mouser Nr.">80-C0805J102K5RAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="C0805J102K5RACAUTO"/>
+      <property name="Mouser Nr." value="80-C0805J102K5RAUTO"/>
+      <property name="Info" value="1000pF; 50V; X7R; -55C; +125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>1c87aab3-f1ab-4eea-8034-fca155b152dd</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>1000p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">C0805J102K5RACAUTO</field>
+        <field name="Info">1000pF; 50V; X7R; -55C; +125C</field>
+        <field name="Mouser Nr.">80-C0805J102K5RAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="C0805J102K5RACAUTO"/>
+      <property name="Mouser Nr." value="80-C0805J102K5RAUTO"/>
+      <property name="Info" value="1000pF; 50V; X7R; -55C; +125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>9f230d6c-c20d-464f-ac2e-2c3d31a4ab4f</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>95ddd9a3-4528-48af-8fbf-f2e76178e770</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>4b451009-8012-4352-bf99-d5c25a723eb8</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL10A226MO7JZNC</field>
+        <field name="Info">22uF; 16V; X5R; -55C; +85C</field>
+        <field name="Mouser Nr.">187-CL10A226MO7JZNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL10A226MO7JZNC"/>
+      <property name="Mouser Nr." value="187-CL10A226MO7JZNC"/>
+      <property name="Info" value="22uF; 16V; X5R; -55C; +85C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>54a20266-8f18-4c02-9d78-87e06852f9e7</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL32B106KMVNNWE</field>
+        <field name="Info">10uF; 63V; X7R; -55C; +125C</field>
+        <field name="Mouser Nr.">187-CL32B106KMVNNWE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL32B106KMVNNWE"/>
+      <property name="Mouser Nr." value="187-CL32B106KMVNNWE"/>
+      <property name="Info" value="10uF; 63V; X7R; -55C; +125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>e754c87a-1db2-48a7-90e5-866749d879f8</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL32B106KMVNNWE</field>
+        <field name="Info">10uF; 63V; X7R; -55C; +125C</field>
+        <field name="Mouser Nr.">187-CL32B106KMVNNWE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL32B106KMVNNWE"/>
+      <property name="Mouser Nr." value="187-CL32B106KMVNNWE"/>
+      <property name="Info" value="10uF; 63V; X7R; -55C; +125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>62c414f0-d67d-4582-8821-b97e7afd7952</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL10A226MO7JZNC</field>
+        <field name="Info">22uF; 16V; X5R; -55C; +85C</field>
+        <field name="Mouser Nr.">187-CL10A226MO7JZNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL10A226MO7JZNC"/>
+      <property name="Mouser Nr." value="187-CL10A226MO7JZNC"/>
+      <property name="Info" value="22uF; 16V; X5R; -55C; +85C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>47968d18-5864-4cce-b707-14695df563b5</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL32B106KMVNNWE</field>
+        <field name="Info">10uF; 63V; X7R; -55C; +125C</field>
+        <field name="Mouser Nr.">187-CL32B106KMVNNWE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL32B106KMVNNWE"/>
+      <property name="Mouser Nr." value="187-CL32B106KMVNNWE"/>
+      <property name="Info" value="10uF; 63V; X7R; -55C; +125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>ee95c4d6-89fb-4de2-8cf7-9c13109380fc</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL32B106KMVNNWE</field>
+        <field name="Info">10uF; 63V; X7R; -55C; +125C</field>
+        <field name="Mouser Nr.">187-CL32B106KMVNNWE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL32B106KMVNNWE"/>
+      <property name="Mouser Nr." value="187-CL32B106KMVNNWE"/>
+      <property name="Info" value="10uF; 63V; X7R; -55C; +125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>e8940afc-b475-4585-86d9-ab9bb6219291</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>1000p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">C0805J102K5RACAUTO</field>
+        <field name="Info">1000pF; 50V; X7R; -55C; +125C</field>
+        <field name="Mouser Nr.">80-C0805J102K5RAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="C0805J102K5RACAUTO"/>
+      <property name="Mouser Nr." value="80-C0805J102K5RAUTO"/>
+      <property name="Info" value="1000pF; 50V; X7R; -55C; +125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>54838daf-feb3-4596-9076-97edc80fabf2</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>1000p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">C0805J102K5RACAUTO</field>
+        <field name="Info">1000pF; 50V; X7R; -55C; +125C</field>
+        <field name="Mouser Nr.">80-C0805J102K5RAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="C0805J102K5RACAUTO"/>
+      <property name="Mouser Nr." value="80-C0805J102K5RAUTO"/>
+      <property name="Info" value="1000pF; 50V; X7R; -55C; +125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>e07a6724-8824-46c4-9307-7408e83ba2f2</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>82c6c25d-c6e9-4cf5-a168-728b3965b9fd</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">885382206004</field>
+        <field name="Info">0.1uF; 50V, X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">710-885382206004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="885382206004"/>
+      <property name="Mouser Nr." value="710-885382206004"/>
+      <property name="Info" value="0.1uF; 50V, X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>511e671c-67eb-4346-b4ae-f34748235e7a</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL10B105KA8NNNC</field>
+        <field name="Info">1uF; 25V;X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">187-CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL10B105KA8NNNC"/>
+      <property name="Mouser Nr." value="187-CL10B105KA8NNNC"/>
+      <property name="Info" value="1uF; 25V;X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>16c928c5-976b-4c08-b7c5-a75c3ce8da65</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CL10B105KA8NNNC</field>
+        <field name="Info">1uF; 25V;X7R; -55C;+125C</field>
+        <field name="Mouser Nr.">187-CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Hersteller Nr." value="CL10B105KA8NNNC"/>
+      <property name="Mouser Nr." value="187-CL10B105KA8NNNC"/>
+      <property name="Info" value="1uF; 25V;X7R; -55C;+125C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>fa4b576f-8432-489f-91ee-1c08ea9ef236</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>330u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="Hersteller Nr.">UWT1E331MNL1GS</field>
+        <field name="Info">330uF; 25V; -55C; +105C; ALU</field>
+        <field name="Mouser Nr.">647-UWT1E331MNL1S</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Hersteller Nr." value="UWT1E331MNL1GS"/>
+      <property name="Info" value="330uF; 25V; -55C; +105C; ALU"/>
+      <property name="Mouser Nr." value="647-UWT1E331MNL1S"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>2017bbea-5879-4cc9-bd9c-9fb8f9730f55</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>330u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="Hersteller Nr.">UWT1E331MNL1GS</field>
+        <field name="Info">330uF; 25V; -55C; +105C; ALU</field>
+        <field name="Mouser Nr.">647-UWT1E331MNL1S</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Hersteller Nr." value="UWT1E331MNL1GS"/>
+      <property name="Info" value="330uF; 25V; -55C; +105C; ALU"/>
+      <property name="Mouser Nr." value="647-UWT1E331MNL1S"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>00a88381-42b9-48f4-a8ad-8c2fabd9bf53</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>SD0603</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/schottky-776407.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">SD0603S040S0R2</field>
+        <field name="Info">200mA; 450mV</field>
+        <field name="Mouser Nr.">581-SD0603S040S0R2</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Hersteller Nr." value="SD0603S040S0R2"/>
+      <property name="Mouser Nr." value="581-SD0603S040S0R2"/>
+      <property name="Info" value="200mA; 450mV"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>2fef1efa-0424-468b-838c-b2f52b766a20</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>SD0603</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/schottky-776407.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">SD0603S040S0R2</field>
+        <field name="Info">200mA; 450mV</field>
+        <field name="Mouser Nr.">581-SD0603S040S0R2</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Hersteller Nr." value="SD0603S040S0R2"/>
+      <property name="Mouser Nr." value="581-SD0603S040S0R2"/>
+      <property name="Info" value="200mA; 450mV"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>1aae8d45-8f96-47e1-99e9-1ef2eb3c083c</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Jack-DC</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal</footprint>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>2fbe5914-de36-4f30-b09f-706ee4604c85</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.3u</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">IMC0805ER3R3J01</field>
+        <field name="Info">3.3uH; 800mA; 80mOhms</field>
+        <field name="Mouser Nr.">70-IMC0805ER3R3J01</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Hersteller Nr." value="IMC0805ER3R3J01"/>
+      <property name="Mouser Nr." value="70-IMC0805ER3R3J01"/>
+      <property name="Info" value="3.3uH; 800mA; 80mOhms"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>e65dee6b-8901-418d-8286-c609acca8c6b</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor_DC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="DC Motor"/>
+      <property name="ki_keywords" value="DC Motor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>a4cd59e2-41f8-447f-9eec-06880185c84d</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Motor_DC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="DC Motor"/>
+      <property name="ki_keywords" value="DC Motor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>00a9a6d0-900e-4865-ad62-28fcdb6c3e32</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN10H220L</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Info">N-Channel; 100V; 7.5A; 220mOhms</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Hersteller Nr." value="DMN10H220LK3-13"/>
+      <property name="Info" value="N-Channel; 100V; 7.5A; 220mOhms"/>
+      <property name="Mouser Nr." value="621-DMN10H220LK3-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>6628cb50-8ab8-489c-9927-9364facdecc5</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMN10H220L</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Info">N-Channel; 100V; 7.5A; 220mOhms</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Hersteller Nr." value="DMN10H220LK3-13"/>
+      <property name="Info" value="N-Channel; 100V; 7.5A; 220mOhms"/>
+      <property name="Mouser Nr." value="621-DMN10H220LK3-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>2279b281-8545-4cdc-8ffc-886fd700aa89</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMN10H220L</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Info">N-Channel; 100V; 7.5A; 220mOhms</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Hersteller Nr." value="DMN10H220LK3-13"/>
+      <property name="Info" value="N-Channel; 100V; 7.5A; 220mOhms"/>
+      <property name="Mouser Nr." value="621-DMN10H220LK3-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>fa80941e-7896-4ace-bf8f-a219ed19848f</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>DMN10H220L</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Info">N-Channel; 100V; 7.5A; 220mOhms</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Hersteller Nr." value="DMN10H220LK3-13"/>
+      <property name="Info" value="N-Channel; 100V; 7.5A; 220mOhms"/>
+      <property name="Mouser Nr." value="621-DMN10H220LK3-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>649c5b33-427c-4b71-9880-fa280a868918</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>DMN10H220L</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Info">N-Channel; 100V; 7.5A; 220mOhms</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Hersteller Nr." value="DMN10H220LK3-13"/>
+      <property name="Info" value="N-Channel; 100V; 7.5A; 220mOhms"/>
+      <property name="Mouser Nr." value="621-DMN10H220LK3-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>81640612-3d94-4196-b03f-3ccb80e18b06</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>DMN10H220L</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Info">N-Channel; 100V; 7.5A; 220mOhms</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Hersteller Nr." value="DMN10H220LK3-13"/>
+      <property name="Info" value="N-Channel; 100V; 7.5A; 220mOhms"/>
+      <property name="Mouser Nr." value="621-DMN10H220LK3-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>277f34b4-bee3-4d50-9c5d-b7c55167fce5</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>DMN10H220L</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Info">N-Channel; 100V; 7.5A; 220mOhms</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Hersteller Nr." value="DMN10H220LK3-13"/>
+      <property name="Info" value="N-Channel; 100V; 7.5A; 220mOhms"/>
+      <property name="Mouser Nr." value="621-DMN10H220LK3-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>9382c107-5dc2-4b13-86ef-4aeae9429da8</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>DMN10H220L</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Info">N-Channel; 100V; 7.5A; 220mOhms</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Hersteller Nr." value="DMN10H220LK3-13"/>
+      <property name="Info" value="N-Channel; 100V; 7.5A; 220mOhms"/>
+      <property name="Mouser Nr." value="621-DMN10H220LK3-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>74495ae9-7078-4146-ab4f-4308295158b4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>feda282d-8fc4-4d8d-a23a-55db3079787f</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>635c664e-3f82-45af-b59c-5f91aae00121</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603120RFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603120RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603120RFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603120RFKEA"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>3a18d6b3-502d-4b30-a011-81ed8b3e9800</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603120RFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603120RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603120RFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603120RFKEA"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>87211840-c23f-454b-9be1-8401bb99783e</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603120RFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603120RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603120RFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603120RFKEA"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>c8f1b1b7-aeee-45dc-b2bf-f20a4fd92624</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603120RFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603120RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603120RFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603120RFKEA"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>f77ab397-7780-4cac-a6cb-b3fdaea04e00</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603120RFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603120RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603120RFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603120RFKEA"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>fe5e6184-4170-4de0-bcc0-6244db990987</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603120RFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603120RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603120RFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603120RFKEA"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>93b1ec46-7e3f-43f0-822c-a304764d0eaa</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603120RFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603120RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603120RFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603120RFKEA"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>9de2696d-36b7-401d-8eea-e2cd29b0b245</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW0603120RFKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW0603120RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW0603120RFKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW0603120RFKEA"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>9158c260-1497-4ff9-b138-e213bb1ea3ce</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>b78f39a6-c92b-434c-adc4-bd990852a4cc</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Hersteller Nr.">CRCW060310K0FKEAC</field>
+        <field name="Info">75V; 1%; 100mW; -55C; +155C</field>
+        <field name="Mouser Nr.">71-CRCW060310K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Hersteller Nr." value="CRCW060310K0FKEAC"/>
+      <property name="Mouser Nr." value="71-CRCW060310K0FKEAC"/>
+      <property name="Info" value="75V; 1%; 100mW; -55C; +155C"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>6c6aff93-d88e-402f-9ec6-3496ae45f3af</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>12V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>acc45657-0f3c-453f-b210-0a064f57f8b5</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>GH_CH1L</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>d3f5528b-8cd8-429e-b33e-dafe1437a96e</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>GL_CH1L</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>fdb4cdb3-ef84-4ac2-8c25-65ec1d5cbff7</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>GH_CH2L</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>775d90eb-f05b-4b88-b3de-c5cb3f7fd7d7</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>GL_CH2L</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>874987ac-bb6b-4bce-b7d2-58bc2cb5766e</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>0416d3a1-61d1-4e10-9756-f0e05d02eadf</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>3.3V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>52042df2-a63b-4f9c-81d4-c2362c252c7f</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>GH_CH1R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>fbb446a3-3266-4ac7-b206-06913c289ddf</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>GL_CH1R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>15cc73d5-393d-4fae-abae-f9aacab37e50</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>GH_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>4c349897-7fc4-4917-8ab4-c2c55ea2934a</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>GL_CH2R</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>e6466a7f-0658-48fd-9d96-016153b7e9f5</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DGD0506A</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DGD0506AM10-13</field>
+        <field name="Mouser Nr.">621-DGD0506AM10-13</field>
+      </fields>
+      <libsource lib="MK_Driver" part="DGD0506A" description=""/>
+      <property name="Hersteller Nr." value="DGD0506AM10-13"/>
+      <property name="Mouser Nr." value="621-DGD0506AM10-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>ac7b25b1-d383-462a-ab34-c3b8e89dbf9e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>DGD0506A</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DGD0506AM10-13</field>
+        <field name="Mouser Nr.">621-DGD0506AM10-13</field>
+      </fields>
+      <libsource lib="MK_Driver" part="DGD0506A" description=""/>
+      <property name="Hersteller Nr." value="DGD0506AM10-13"/>
+      <property name="Mouser Nr." value="621-DGD0506AM10-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>3862f4c2-0b07-4b2f-a2bb-97b1ac25c88f</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM2937IMP5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2937.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">LM2937IMP-5.0/NOPB</field>
+        <field name="Info">5V LDO</field>
+        <field name="Mouser Nr.">926-LM2937IMP5.0NOPB</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM2937xMP" description="500-mA Low Dropout Regulator, SOT-223"/>
+      <property name="Hersteller Nr." value="LM2937IMP-5.0/NOPB"/>
+      <property name="Info" value="5V LDO"/>
+      <property name="Mouser Nr." value="926-LM2937IMP5.0NOPB"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="500-mA Low Dropout Regulator, SOT-223"/>
+      <property name="ki_keywords" value="Voltage Regulator Low Dropuout Positive LDO"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>0bd41744-8c66-4cd7-9c00-9698d019324d</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AP63203WU</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">AP63203WU-7</field>
+        <field name="Info">3.3V Buck Converter</field>
+        <field name="Mouser Nr.">621-AP63203WU-7</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="AP63203WU" description="2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"/>
+      <property name="Hersteller Nr." value="AP63203WU-7"/>
+      <property name="Mouser Nr." value="621-AP63203WU-7"/>
+      <property name="Info" value="3.3V Buck Converter"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <property name="ki_description" value="2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"/>
+      <property name="ki_keywords" value="2A Buck DC/DC"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>7c25a6c0-f147-45ea-a261-3cfce1b1503b</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>DGD0506A</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DGD0506AM10-13</field>
+        <field name="Mouser Nr.">621-DGD0506AM10-13</field>
+      </fields>
+      <libsource lib="MK_Driver" part="DGD0506A" description=""/>
+      <property name="Hersteller Nr." value="DGD0506AM10-13"/>
+      <property name="Mouser Nr." value="621-DGD0506AM10-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>2fc43ba2-9fef-4768-acf1-9648b07283ff</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>DGD0506A</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <fields>
+        <field name="Hersteller Nr.">DGD0506AM10-13</field>
+        <field name="Mouser Nr.">621-DGD0506AM10-13</field>
+      </fields>
+      <libsource lib="MK_Driver" part="DGD0506A" description=""/>
+      <property name="Hersteller Nr." value="DGD0506AM10-13"/>
+      <property name="Mouser Nr." value="621-DGD0506AM10-13"/>
+      <property name="Sheetname" value="MotorControl_Supply"/>
+      <property name="Sheetfile" value="MotorControl_Supply.kicad_sch"/>
+      <sheetpath names="/MotorControl_Supply/" tstamps="/05645989-2b65-44ab-9e1d-2e7ba236eacc/"/>
+      <tstamps>16dd6b14-fb0e-4c10-8225-b609e148dd67</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Conn_02x02_Counter_Clockwise_1">
+      <description>Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Jack-DC">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Jack-DC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32L4" part="STM32L412K8Tx">
+      <description>STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 40KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, LQFP32</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32l412k8.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L412K8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32l412k8.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC14" type="bidirectional"/>
+        <pin num="3" name="PC15" type="bidirectional"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="PA0" type="bidirectional"/>
+        <pin num="7" name="PA1" type="bidirectional"/>
+        <pin num="8" name="PA2" type="bidirectional"/>
+        <pin num="9" name="PA3" type="bidirectional"/>
+        <pin num="10" name="PA4" type="bidirectional"/>
+        <pin num="11" name="PA5" type="bidirectional"/>
+        <pin num="12" name="PA6" type="bidirectional"/>
+        <pin num="13" name="PA7" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PB1" type="bidirectional"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="PA8" type="bidirectional"/>
+        <pin num="19" name="PA9" type="bidirectional"/>
+        <pin num="20" name="PA10" type="bidirectional"/>
+        <pin num="21" name="PA11" type="bidirectional"/>
+        <pin num="22" name="PA12" type="bidirectional"/>
+        <pin num="23" name="PA13" type="bidirectional"/>
+        <pin num="24" name="PA14" type="bidirectional"/>
+        <pin num="25" name="PA15" type="bidirectional"/>
+        <pin num="26" name="PB3" type="bidirectional"/>
+        <pin num="27" name="PB4" type="bidirectional"/>
+        <pin num="28" name="PB5" type="bidirectional"/>
+        <pin num="29" name="PB6" type="bidirectional"/>
+        <pin num="30" name="PB7" type="bidirectional"/>
+        <pin num="31" name="PH3" type="bidirectional"/>
+        <pin num="32" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MK_Driver" part="DGD0506A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DGD0506A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="power_in"/>
+        <pin num="2" name="VB" type="power_out"/>
+        <pin num="3" name="HO" type="output"/>
+        <pin num="4" name="Vs" type="output"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="DT" type="input"/>
+        <pin num="7" name="EN" type="input"/>
+        <pin num="8" name="IN" type="input"/>
+        <pin num="9" name="COM" type="input"/>
+        <pin num="10" name="LO" type="input"/>
+        <pin num="11" name="PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Motor" part="Motor_DC">
+      <description>DC Motor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_DC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM2937xMP">
+      <description>500-mA Low Dropout Regulator, SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2937.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2937xMP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2937.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="AP63203WU">
+      <description>2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP63203WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="output"/>
+        <pin num="6" name="BST" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32L4">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32L4.kicad_sym</uri>
+    </library>
+    <library logical="MK_Driver">
+      <uri>C:/Users/marce/OneDrive/KiCAD/GlobalLibrary/MK_Driver/MK_Driver.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="17" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VI" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="Vcc" pintype="power_in"/>
+    </net>
+    <net code="4" name="+12VA">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="5" name="/Main/D+">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="6" name="/Main/D-">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="7" name="/Main/ENCODER1_A">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Main/ENCODER1_A_OUT">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/Main/ENCODER1_B">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/Main/ENCODER1_B_OUT">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/Main/ENCODER2_A">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Main/ENCODER2_A_OUT">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/Main/ENCODER2_B">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Main/ENCODER2_B_OUT">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/Main/LED1">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PC14" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Main/LED2">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PC15" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/Main/REF_MOT1">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/Main/REF_MOT2">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Main/RSPI_RX">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/Main/RSPI_TX">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/Main/SWCLK">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/Main/SWDIO">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/Main/USB_DM">
+      <node ref="U1" pin="21" pinfunction="PA11" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="24" name="/Main/USB_DP">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PA12" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="25" name="/Main/VUSB">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="EN_MOT_CH1L">
+      <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="PB4" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="27" name="EN_MOT_CH1R">
+      <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PB3" pintype="bidirectional"/>
+      <node ref="U7" pin="7" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="28" name="EN_MOT_CH2L">
+      <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="29" name="EN_MOT_CH2R">
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PA4" pintype="bidirectional"/>
+      <node ref="U8" pin="7" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="PAD" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="COM" pintype="input"/>
+      <node ref="U4" pin="11" pinfunction="PAD" pintype="input"/>
+      <node ref="U4" pin="9" pinfunction="COM" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="11" pinfunction="PAD" pintype="input"/>
+      <node ref="U7" pin="9" pinfunction="COM" pintype="input"/>
+      <node ref="U8" pin="11" pinfunction="PAD" pintype="input"/>
+      <node ref="U8" pin="9" pinfunction="COM" pintype="input"/>
+    </net>
+    <net code="31" name="IN_MOT_CH1L">
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PA3" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="32" name="IN_MOT_CH1R">
+      <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U7" pin="8" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="33" name="IN_MOT_CH2L">
+      <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U4" pin="8" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="34" name="IN_MOT_CH2R">
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="U8" pin="8" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J4-Pin_2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J7-Pin_2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(M1-+)">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="Vs" pintype="output"/>
+    </net>
+    <net code="40" name="Net-(M1--)">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="Vs" pintype="output"/>
+    </net>
+    <net code="41" name="Net-(M2-+)">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="M2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="Vs" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(M2--)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="M2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="Vs" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(Q2-G)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q3-G)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q4-G)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(Q5-G)">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q6-G)">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(Q7-G)">
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(Q8-G)">
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(U1-NRST)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(U1-PH3)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="PH3" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(U3-DT)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="DT" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(U3-HO)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="55" name="Net-(U3-LO)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="LO" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(U3-VB)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VB" pintype="power_out"/>
+    </net>
+    <net code="57" name="Net-(U4-DT)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="DT" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(U4-HO)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="59" name="Net-(U4-LO)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="LO" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(U4-VB)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="VB" pintype="power_out"/>
+    </net>
+    <net code="61" name="Net-(U6-BST)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(U6-SW)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="63" name="Net-(U7-DT)">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="DT" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(U7-HO)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="65" name="Net-(U7-LO)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="LO" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(U7-VB)">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="VB" pintype="power_out"/>
+    </net>
+    <net code="67" name="Net-(U8-DT)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="DT" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(U8-HO)">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="69" name="Net-(U8-LO)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U8" pin="10" pinfunction="LO" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(U8-VB)">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="VB" pintype="power_out"/>
+    </net>
+    <net code="71" name="VBUS">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(J1-ID-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J5-Pin_4-Pad4)">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J6-Pin_4-Pad4)">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-PA5-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-PB1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U3-NC-Pad5)">
+      <node ref="U3" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U4-NC-Pad5)">
+      <node ref="U4" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U7-NC-Pad5)">
+      <node ref="U7" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U8-NC-Pad5)">
+      <node ref="U8" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

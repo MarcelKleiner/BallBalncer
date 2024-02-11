@@ -1,0 +1,6 @@
+../Core/Src/Taskhandler/Taskhandler.cpp:4:1:Taskhandler::Taskhandler()	1
+../Core/Src/Taskhandler/Taskhandler.cpp:6:6:void Taskhandler::UpdateTaskhandler()	6
+../Core/Src/Taskhandler/Taskhandler.cpp:35:6:bool Taskhandler::IsErrorTask()	1
+../Core/Src/Taskhandler/Taskhandler.cpp:42:6:bool Taskhandler::IsDriveTask()	1
+../Core/Src/Taskhandler/Taskhandler.cpp:49:6:bool Taskhandler::IsEncoderTask()	1
+../Core/Src/Taskhandler/Taskhandler.cpp:56:6:bool Taskhandler::IsLedTask()	1

@@ -1,0 +1,5 @@
+../Core/Src/Controller/CalculationHelper/AngleCalculation.cpp:12:1:AngleCalculation::AngleCalculation()	1
+../Core/Src/Controller/CalculationHelper/AngleCalculation.cpp:18:9:int32_t AngleCalculation::CalculateTargetEncoderValue(float)	1
+../Core/Src/Controller/CalculationHelper/AngleCalculation.cpp:28:7:float AngleCalculation::ConvertFromDegreeToRad(float)	1
+../Core/Src/Controller/CalculationHelper/AngleCalculation.cpp:34:7:float AngleCalculation::SinusApproximation(float)	1
+../Core/Src/Controller/CalculationHelper/AngleCalculation.cpp:44:7:float AngleCalculation::ArcSinusApproximation(float)	1

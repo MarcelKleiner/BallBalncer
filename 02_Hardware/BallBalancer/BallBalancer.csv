@@ -1,0 +1,37 @@
+Item;Qty;Reference(s);Value;LibPart;Footprint;Datasheet;Hersteller Nr.;Info;"Mouser Nr.				"
+1;14;C1, C2, C3, C4, C7, C10, C13, C14, C16, C18, C21, C22, C31, C32;100n;Device:C;Capacitor_SMD:C_0603_1608Metric;https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf;885382206004;"0.1uF	 50V, X7R	 -55C	+125C";"710-885382206004	"
+2;4;C5, C6, C8, C9;1n;Device:C;Capacitor_SMD:C_0603_1608Metric;https://www.mouser.ch/datasheet/2/40/C0GNP0_Dielectric-951274.pdf;06035C102KAT2A;"1nF	 50V	 X7R	 -55C	+125C";581-06035C102K
+3;4;C11, C12, C33, C34;1u;Device:C;Capacitor_SMD:C_0603_1608Metric;~;CL10B105KA8NNNC;"1uF	 25V	X7R	 -55C	+125C";187-CL10B105KA8NNNC
+4;3;C15, C35, C36;330u;Device:C_Polarized;Capacitor_SMD:CP_Elec_8x10;~;UWT1E331MNL1GS;"330uF	 25V	 -55C	 +105C	 ALU";647-UWT1E331MNL1S
+5;1;C17;10u;Device:C;Capacitor_SMD:C_0805_2012Metric;~;C2012X5R1V106K085AC;"10uF	 35V	 X5R	 -55C	 +85C";810-C2012X5R1V106K0C
+6;4;C19, C20, C29, C30;1000p;Device:C;Capacitor_SMD:C_0805_2012Metric;~;C0805J102K5RACAUTO;"1000pF	 50V	 X7R	 -55C	 +125C";80-C0805J102K5RAUTO
+7;2;C23, C26;22u;Device:C;Capacitor_SMD:C_0603_1608Metric;~;CL10A226MO7JZNC;"22uF	 16V	 X5R	 -55C	 +85C";187-CL10A226MO7JZNC
+8;4;C24, C25, C27, C28;10u;Device:C;Capacitor_SMD:C_1210_3225Metric;~;CL32B106KMVNNWE;"10uF	 63V	 X7R	 -55C	 +125C";187-CL32B106KMVNNWE
+9;1;D1;LED_R;Device:LED;LED_SMD:LED_0603_1608Metric;~;150060RS75000;"Red	 20mA	 2V";"710-150060RS75000		"
+10;1;D2;LED_G;Device:LED;LED_SMD:LED_0603_1608Metric;~;150060VS75000;"Green	 20mA	 2V";"710-150060VS75000		"
+11;4;D3, D4, D5, D6;MM5Z3V3;Device:D_Zener;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/308/MM5Z2V4T1-D-108556.pdf;MM5Z3V3T1G;"3.3V	 500mW ";"863-MM5Z3V3T1G			"
+12;2;D7, D8;SD0603;Device:D_Schottky;Diode_SMD:D_0603_1608Metric;https://www.mouser.ch/datasheet/2/40/schottky-776407.pdf;SD0603S040S0R2;"200mA	 450mV";"581-SD0603S040S0R2			"
+13;1;J1;USB_B_Micro;Connector:USB_B_Micro;Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal;~;UJ2-MBH-1-SMT-TR;USB Mini B;"490-UJ2-MBH-1-SMT				"
+14;1;J2;Raspberry PI UART;Connector:Conn_01x03_Pin;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;~;;;"				"
+15;1;J3;SWD;:Conn_02x02_Counter_Clockwise_1;Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical;~;;;"				"
+16;1;J4;Reference switch 1;Connector:Conn_01x03_Pin;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;~;;;"				"
+17;1;J5;ENCODER 1;Connector:Conn_01x05_Pin;Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical;~;;Connector for AMT102 Encoder (AMT102-V);"				"
+18;1;J6;ENCODER 2;Connector:Conn_01x05_Pin;Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical;~;;Connector for AMT102 Encoder (AMT102-V);"				"
+19;1;J7;Reference switch 2;Connector:Conn_01x03_Pin;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;~;;;"				"
+20;1;J8;Jack-DC;Connector:Jack-DC;Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal;~;;;"				"
+21;1;L1;3.3u;Device:L;Inductor_SMD:L_0805_2012Metric;~;IMC0805ER3R3J01;"3.3uH	 800mA	 80mOhms";"70-IMC0805ER3R3J01		"
+22;2;M1, M2;Motor_DC;Motor:Motor_DC;Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;~;;;"				"
+23;8;Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8;DMN10H220L;Device:Q_NMOS_GDS;Package_TO_SOT_SMD:TO-252-2;~;DMN10H220LK3-13;"N-Channel	 100V	 7.5A	 220mOhms";"621-DMN10H220LK3-13	"
+24;2;R1, R2;240;Device:R;Resistor_SMD:R_0603_1608Metric;~;RC0603FR-13240RL;"75V	1%	 100mW	 -55C	 +155C";603-RC0603FR-13240RL
+25;2;R3, R4;100k;Device:R;Resistor_SMD:R_0603_1608Metric;~;CRCW0603100KFKEAC;"75V	1%	 100mW	 -55C	 +155C";71-CRCW0603100KFKEAC
+26;9;R5, R8, R11, R12, R15, R16, R17, R26, R27;10k;Device:R;Resistor_SMD:R_0603_1608Metric;~;CRCW060310K0FKEAC;"75V	1%	 100mW	 -55C	 +155C";71-CRCW060310K0FKEAC
+27;1;R6;15k;Device:R;Resistor_SMD:R_0603_1608Metric;~;ERJ-3EKF1502V;"75V	1%	 100mW	 -55C	 +155C";667-ERJ-3EKF1502V
+28;1;R7;1.5k;Device:R;Resistor_SMD:R_0603_1608Metric;~;CRCW06031K50JNEAC;"75V	5%	 100mW	 -55C	 +155C";71-CRCW06031K50JNEAC
+29;2;R9, R13;3.3k;Device:R;Resistor_SMD:R_0603_1608Metric;~;ERJ-PB3B3301V;"75V	0.10%	 200mW	 -55C	 +155C";667-ERJ-PB3B3301V
+30;2;R10, R14;1k;Device:R;Resistor_SMD:R_0603_1608Metric;~;CRCW06031K00FKEAC;"75V	1%	 100mW	 -55C	 +155C";71-CRCW06031K00FKEAC
+31;8;R18, R19, R20, R21, R22, R23, R24, R25;120;Device:R;Resistor_SMD:R_0603_1608Metric;~;CRCW0603120RFKEAC;"75V	1%	 100mW	 -55C	 +155C";71-CRCW0603120RFKEA
+32;1;U1;STM32L412K8Tx;MCU_ST_STM32L4:STM32L412K8Tx;Package_QFP:LQFP-32_7x7mm_P0.8mm;https://www.st.com/resource/en/datasheet/stm32l412k8.pdf;STM32L412K8T6;"80MHz	 40kB RAM	 64 kB Flash";"511-STM32L412K8T6		"
+33;1;U2;USBLC6-2SC6;Power_Protection:USBLC6-2SC6;Package_TO_SOT_SMD:SOT-23-6;https://www.st.com/resource/en/datasheet/usblc6-2.pdf;USBLC6-2SC6;USB TVS;"511-USBLC6-2SC6				"
+34;4;U3, U4, U7, U8;DGD0506A;MK_Driver:DGD0506A;Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm;;DGD0506AM10-13;;"621-DGD0506AM10-13				"
+35;1;U5;LM2937IMP5;Regulator_Linear:LM2937xMP;Package_TO_SOT_SMD:SOT-223-3_TabPin2;http://www.ti.com/lit/ds/symlink/lm2937.pdf;LM2937IMP-5.0/NOPB;5V LDO;"926-LM2937IMP5.0NOPB				"
+36;1;U6;AP63203WU;Regulator_Switching:AP63203WU;Package_TO_SOT_SMD:TSOT-23-6;https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf;AP63203WU-7;3.3V Buck Converter;"621-AP63203WU-7				"
