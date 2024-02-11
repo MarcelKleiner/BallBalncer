@@ -65,8 +65,14 @@ void Error_Handler(void);
 #define ENCODER2_A_GPIO_Port GPIOA
 #define ENCODER2_B_Pin GPIO_PIN_1
 #define ENCODER2_B_GPIO_Port GPIOA
+#define IN_CH2R_Pin GPIO_PIN_2
+#define IN_CH2R_GPIO_Port GPIOA
+#define IN_CH1L_Pin GPIO_PIN_3
+#define IN_CH1L_GPIO_Port GPIOA
 #define EN_CH2R_Pin GPIO_PIN_4
 #define EN_CH2R_GPIO_Port GPIOA
+#define IN_CH2L_Pin GPIO_PIN_6
+#define IN_CH2L_GPIO_Port GPIOA
 #define EN_CH2L_Pin GPIO_PIN_7
 #define EN_CH2L_GPIO_Port GPIOA
 #define VUSB_Pin GPIO_PIN_0
@@ -75,6 +81,8 @@ void Error_Handler(void);
 #define ENCODER1_B_GPIO_Port GPIOA
 #define ENCODER1_A_Pin GPIO_PIN_9
 #define ENCODER1_A_GPIO_Port GPIOA
+#define IN_CH1R_Pin GPIO_PIN_10
+#define IN_CH1R_GPIO_Port GPIOA
 #define REF_M2_Pin GPIO_PIN_15
 #define REF_M2_GPIO_Port GPIOA
 #define EN_CH1R_Pin GPIO_PIN_3

@@ -3,7 +3,6 @@
 
 IOHandle::IOHandle(GPIO_TypeDef* port, uint32_t pin, TIM_HandleTypeDef* timer, uint32_t channel)
 {
-     HAL_TIM_PWM_MspInit(_timer);
      _port = port;
      _pin = pin;
      _timer = timer;
@@ -62,29 +61,8 @@ void IOHandle::SetPWM(uint32_t pwm)
           return;
      }
 
-     switch (_channel)
-     {
-     case 1:
-          __HAL_TIM_SET_COMPARE(_timer, TIM_CHANNEL_1, pwm);
-          break;
-     case 2:
-          __HAL_TIM_SET_COMPARE(_timer, TIM_CHANNEL_2, pwm);
-          break;
-     case 3:
-          __HAL_TIM_SET_COMPARE(_timer, TIM_CHANNEL_3, pwm);
-          break;
-     case 4:
-          __HAL_TIM_SET_COMPARE(_timer, TIM_CHANNEL_4, pwm);
-          break;
-     case 5:
-          __HAL_TIM_SET_COMPARE(_timer, TIM_CHANNEL_5, pwm);
-          break;
-     case 6:
-          __HAL_TIM_SET_COMPARE(_timer, TIM_CHANNEL_6, pwm);
-          break;
-     default:
-          break;
-     }
+     __HAL_TIM_SET_COMPARE(_timer, _channel, pwm);
+
 }
 
 bool IOHandle::IsPWMFunction() {
@@ -93,7 +71,7 @@ bool IOHandle::IsPWMFunction() {
 
 void IOHandle::SetFunction(IOFunction ioFunction)
 {
-     _IoFunction == ioFunction;
+     _IoFunction = ioFunction;
 
      switch (ioFunction)
      {    
@@ -145,11 +123,38 @@ void IOHandle::InitAsDigitalOut()
 
 void IOHandle::InitAsPWMOut() 
 {
+	  TIM_OC_InitTypeDef sConfigOC = {0};
      HAL_TIM_PWM_Stop(_timer, _channel);
+
+     sConfigOC.OCMode = TIM_OCMODE_PWM1;
+     sConfigOC.Pulse = 0;
+     sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+     sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
+     sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+     sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
+     sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
+     if (HAL_TIM_PWM_ConfigChannel(_timer, &sConfigOC, _channel) != HAL_OK)
+     {
+
+     }
+
      GPIO_InitStruct.Pin = _pin;
-     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP; // Alternative function mode
+     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
      GPIO_InitStruct.Pull = GPIO_NOPULL;
      GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+
+     if(_timer->Instance == TIM16)
+         GPIO_InitStruct.Alternate = GPIO_AF14_TIM16;
+
+     if(_timer->Instance == TIM15)
+         GPIO_InitStruct.Alternate = GPIO_AF14_TIM15;
+
+     if(_timer->Instance == TIM1)
+         GPIO_InitStruct.Alternate = GPIO_AF1_TIM1;
+
+
+
      HAL_GPIO_Init(_port, &GPIO_InitStruct);
+
      HAL_TIM_PWM_Start(_timer, _channel);
 }

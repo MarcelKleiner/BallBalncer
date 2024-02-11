@@ -47,7 +47,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-ApplicationMain applicationMain = ApplicationMain();
+  ApplicationMain applicationMain = ApplicationMain();
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -58,7 +58,6 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
 /* USER CODE END 0 */
 
 /**
@@ -95,7 +94,7 @@ int main(void)
   MX_TIM16_Init();
   MX_USART1_UART_Init();
   MX_USB_PCD_Init();
-    MX_ADC1_Init();
+  MX_ADC1_Init();
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
   applicationMain.StartUp();

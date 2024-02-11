@@ -10,7 +10,8 @@
 class DriveControl
 {
 	public:
-		DriveControl(TIM_HandleTypeDef timer, IOHandle* enLeft, IOHandle* inLeft, IOHandle* enRight, IOHandle* inRight);
+		DriveControl(IOHandle* enLeft, IOHandle* inLeft, IOHandle* enRight, IOHandle* inRight);
+		void Init();
 		void DriveLeft(uint16_t speed);
 		void DriveRight(uint16_t speed);
 

@@ -1,15 +1,19 @@
 #include "DriveControl.h"
 
 
-DriveControl::DriveControl(TIM_HandleTypeDef timer, IOHandle* enLeft, IOHandle* inLeft, IOHandle* enRight, IOHandle* inRight)
+DriveControl::DriveControl(IOHandle* enLeft, IOHandle* inLeft, IOHandle* enRight, IOHandle* inRight)
 {
 	_enLeft = enLeft;
 	_inLeft = inLeft;
 	_enRight = enRight;
 	_inRight = inRight;
-     _timer = timer;
 	_rotationDirection = RotationDirection::Undefined;
+}
 
+void DriveControl::Init()
+{
+	_enLeft->SetFunction(IOFunction::Output);
+	_enRight->SetFunction(IOFunction::Output);
 	_enLeft->Write(true);
 	_enRight->Write(true);
 }
@@ -24,7 +28,7 @@ void DriveControl::DriveLeft(uint16_t speed)
 		_inRight->Write(false);
 		_rotationDirection = RotationDirection::Left;
 	}
-	_inRight->SetPWM(speed);
+	_inLeft->SetPWM(speed);
 }
 
 void DriveControl::DriveRight(uint16_t speed)
