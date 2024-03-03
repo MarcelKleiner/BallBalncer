@@ -1,0 +1,5 @@
+enum HomingState
+{
+	DriveToSwitch,
+	DriveToCenterPos,
+};

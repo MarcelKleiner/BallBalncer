@@ -1,0 +1,3 @@
+../Core/Src/AppMain/ApplicationMain.cpp:12:1:ApplicationMain::ApplicationMain()	1
+../Core/Src/AppMain/ApplicationMain.cpp:17:6:void ApplicationMain::StartUp()	1
+../Core/Src/AppMain/ApplicationMain.cpp:43:6:void ApplicationMain::Main()	6

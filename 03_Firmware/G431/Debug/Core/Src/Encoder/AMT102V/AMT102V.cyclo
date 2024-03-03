@@ -1,0 +1,10 @@
+../Core/Src/Encoder/AMT102V/../IEncoder.h:11:11:IEncoder::~IEncoder()	1
+../Core/Src/Encoder/AMT102V/../IEncoder.h:11:11:virtual IEncoder::~IEncoder()	1
+../Core/Src/Encoder/AMT102V/../IEncoder.h:8:7:constexpr IEncoder::IEncoder()	1
+../Core/Src/Encoder/AMT102V/AMT102V.cpp:3:1:AMT102V::AMT102V(TIM_HandleTypeDef*)	1
+../Core/Src/Encoder/AMT102V/AMT102V.cpp:8:6:virtual void AMT102V::SetValue(int32_t)	1
+../Core/Src/Encoder/AMT102V/AMT102V.cpp:13:6:virtual void AMT102V::ResetValue()	1
+../Core/Src/Encoder/AMT102V/AMT102V.cpp:18:6:virtual void AMT102V::Update()	3
+../Core/Src/Encoder/AMT102V/AMT102V.cpp:39:9:virtual int32_t AMT102V::GetValue()	1
+../Core/Src/Encoder/AMT102V/AMT102V.h:9:7:AMT102V::~AMT102V()	1
+../Core/Src/Encoder/AMT102V/AMT102V.h:9:7:virtual AMT102V::~AMT102V()	1
