@@ -1,6 +1,7 @@
 
 #include "Home.h"
 #include "math.h"
+#include "../../AppSettings.h"
 
 
 Home::Home( DriveControl* driveControl, IEncoder* encoder)
@@ -45,6 +46,7 @@ bool Home::DriveToSwitchPos(RotationDirection rotationDirection)
 	if(HAL_GPIO_ReadPin(refSwitch->GetPort(), refSwitch->GetPin()) == GPIO_PIN_SET)
 	{
 		_driveControl->DriveLeft(0);
+		_encoder->ResetValue();
 		return true;
 	}
 
@@ -63,7 +65,7 @@ bool Home::DriveToSwitchPos(RotationDirection rotationDirection)
 
 bool Home::DriveToCenterPos(RotationDirection rotationDirection)
 {
-	if(abs(_encoder->GetValue()) > 63000)
+	if(abs(_encoder->GetValue()) > ZeroDegreeEncoderValue)
 	{
 		_driveControl->DriveLeft(0);
 		return true;

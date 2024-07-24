@@ -1,3 +1,4 @@
 ../Core/Src/AppMain/ApplicationMain.cpp:12:1:ApplicationMain::ApplicationMain()	1
 ../Core/Src/AppMain/ApplicationMain.cpp:17:6:void ApplicationMain::StartUp()	1
-../Core/Src/AppMain/ApplicationMain.cpp:43:6:void ApplicationMain::Main()	6
+../Core/Src/AppMain/ApplicationMain.cpp:49:6:void ApplicationMain::Main()	12
+../Core/Src/AppMain/ApplicationMain.cpp:106:6:void ApplicationMain::CheckDriveZeroPosition(DriveControl*, IEncoder*)	4

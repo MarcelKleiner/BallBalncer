@@ -4,39 +4,24 @@
 #include "Controller.h"
 
 
-Controller::Controller(DriveControl* driveControlX, DriveControl* driveControlY, IEncoder* encoderX, IEncoder* encoderY)
+Controller::Controller(DriveControl* driveControl, IEncoder* encoder)
 {
-	this->_driveControlX = driveControlX;
-	this->_driveControlY = driveControlY;
-	this->_encoderX = encoderX;
-	this->_encoderY = encoderY;
+	this->_driveControl = driveControl;
+	this->_encoder = encoder;
 	this->_ancleCalculatin = new AngleCalculation();
 }
 
-void Controller::UpdateController(float xAngle, float yAngle)
+void Controller::UpdateController(float targetAngle)
 {
 
-	if(previewXAngle != xAngle || previewYAngle != yAngle)
+	if(previewAngle != targetAngle)
 	{
-		ValidateAngle(&xAngle);
-		ValidateAngle(&yAngle);
-	}
-
-	if(previewXAngle != xAngle)
-	{
-		EncoderValueX = _ancleCalculatin->CalculateTargetEncoderValue(xAngle);
-	}
-
-	if(previewYAngle != yAngle)
-	{
-		EncoderValueY = _ancleCalculatin->CalculateTargetEncoderValue(yAngle);
+		ValidateAngle(&targetAngle);
+		encoderValue = _ancleCalculatin->CalculateTargetEncoderValue(targetAngle);
 	}
 	
-	UpdateYPosition(EncoderValueY);
-	UpdateXPosition(EncoderValueX);
-
-	previewYAngle = yAngle;
-	previewXAngle = xAngle;
+	UpdatePosition(encoderValue);
+	previewAngle = targetAngle;
 }
 
 
@@ -47,16 +32,7 @@ void Controller::ValidateAngle(float* angle)
 }
 
 
-void Controller::UpdateYPosition(float EncoderValueY)
+void Controller::UpdatePosition(float EncoderValueY)
 {
 
 }
-
-
-
-void Controller::UpdateXPosition(float EncoderValueX)
-{
-
-}
-
-

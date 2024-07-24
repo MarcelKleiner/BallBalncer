@@ -10,30 +10,22 @@
 class Controller
 {
 	public:
-		Controller(DriveControl* driveControlX, DriveControl* driveControlY, IEncoder* encoderX, IEncoder* encoderY);
+		Controller(DriveControl* driveControl, IEncoder* encoder);
 
-		void UpdateController(float xAngle, float yAngle);
+		void UpdateController(float targetAngle);
 
 	private:
-		DriveControl* _driveControlX;
-		DriveControl* _driveControlY;
-		IEncoder* _encoderX;
-		IEncoder* _encoderY;
+		DriveControl* _driveControl;
+		IEncoder* _encoder;
 
 		AngleCalculation *_ancleCalculatin;
 
 		void ValidateAngle(float* angle);
 
-		void UpdateYPosition(float EncoderValueY);
-		void UpdateXPosition(float EncoderValueX);
+		void UpdatePosition(float EncoderValue);
 
-
-		float previewXAngle = 0;
-		float previewYAngle = 0;
-
-		float EncoderValueY = 0;
-		float EncoderValueX= 0;
-
+		float previewAngle = 0;
+		float encoderValue= 0;
 };
 
 #endif /* SRC_CONTROLLER_CONTROLLER_H_ */

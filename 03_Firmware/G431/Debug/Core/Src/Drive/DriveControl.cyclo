@@ -4,7 +4,5 @@
 ../Core/Src/Drive/DriveControl.cpp:36:6:void DriveControl::DriveRight(uint16_t)	2
 ../Core/Src/Drive/DriveControl.cpp:48:6:void DriveControl::DriveStop()	1
 ../Core/Src/Drive/DriveControl.cpp:56:11:IOHandle* DriveControl::GetRefSwitch()	1
-../Core/Src/Drive/DriveControl.cpp:61:6:bool DriveControl::IsHomingSttus()	1
+../Core/Src/Drive/DriveControl.cpp:61:6:bool DriveControl::IsHomingStatus()	1
 ../Core/Src/Drive/DriveControl.cpp:66:6:void DriveControl::SetHomingSttus(bool)	1
-../Core/Src/Drive/DriveControl.cpp:70:10:uint32_t DriveControl::GetHomingPosition()	1
-../Core/Src/Drive/DriveControl.cpp:75:6:void DriveControl::SetHomingPosition(uint32_t)	1

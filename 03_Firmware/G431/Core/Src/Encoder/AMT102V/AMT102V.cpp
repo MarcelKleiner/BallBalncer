@@ -17,7 +17,7 @@ void AMT102V::ResetValue()
 
 void AMT102V::Update()
 {
-	currentValue = timer->Instance->CNT;
+	currentValue = -(timer->Instance->CNT);
 	deltaValue = currentValue - lastValue;
 
 	//forward overflow

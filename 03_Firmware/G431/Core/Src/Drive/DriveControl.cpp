@@ -58,21 +58,11 @@ IOHandle* DriveControl::GetRefSwitch()
 	return this->_refSwitch;
 }
 
-bool DriveControl::IsHomingSttus()
+bool DriveControl::IsHomingStatus()
 {
 	return _homingSttus;
 }
 
 void DriveControl::SetHomingSttus(bool homingSttus) {
 	_homingSttus = homingSttus;
-}
-
-uint32_t DriveControl::GetHomingPosition()
-{
-	return _homingPosition;
-}
-
-void DriveControl::SetHomingPosition(uint32_t homingPosition)
-{
-	_homingPosition = homingPosition;
 }

@@ -1,0 +1,5 @@
+../Core/Src/Error/Error.cpp:10:1:Error::Error()	1
+../Core/Src/Error/Error.cpp:14:6:void Error::SetError(Error::ErrorCode)	1
+../Core/Src/Error/Error.cpp:20:18:Error::ErrorCode Error::GetError()	1
+../Core/Src/Error/Error.cpp:25:6:bool Error::HasError()	1
+../Core/Src/Error/Error.cpp:30:6:void Error::Reset()	1

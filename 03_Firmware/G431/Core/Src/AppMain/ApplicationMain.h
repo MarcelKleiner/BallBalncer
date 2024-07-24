@@ -8,6 +8,8 @@
 #include "../IO/IOHandle.h"
 #include "../Drive/Homing/Home.h"
 #include "../Encoder/AMT102V/AMT102V.h"
+#include "../Controller/Controller.h"
+#include "../Error/Error.h"
 
 #include "main.h"
 
@@ -30,8 +32,12 @@ class ApplicationMain
 		Taskhandler taskhandler = Taskhandler();
 	private:
 
-		AMT102V encoder1 = AMT102V(&htim1);
-		AMT102V encoder2 =  AMT102V(&htim2);
+		void CheckDriveZeroPosition(DriveControl* driveControl, IEncoder* encoder);
+
+		Error error = Error();
+
+		AMT102V encoderX = AMT102V(&htim1);
+		AMT102V encoderY =  AMT102V(&htim2);
 
 		IOHandle refSwitchXAxis = IOHandle(REF_MOT1_GPIO_Port, REF_MOT1_Pin);
 
@@ -50,22 +56,25 @@ class ApplicationMain
 		IOHandle ioHandleYAxisInL = IOHandle(IN_MOT_CH2L_GPIO_Port, IN_MOT_CH2L_Pin, &htim3, TIM_CHANNEL_1);
 
 
-		DriveControl driveCoontrolXAxis = DriveControl(
+		DriveControl driveControlXAxis = DriveControl(
 				&ioHandleXAxisEnL,
 				&ioHandleXAxisInL,
 				&ioHandleXAxisEnR,
 				&ioHandleXAxisInR,
 				&refSwitchXAxis);
 
-		DriveControl driveCoontrolYAxis = DriveControl(
+		DriveControl driveControlYAxis = DriveControl(
 				&ioHandleYAxisEnL,
 				&ioHandleYAxisInL,
 				&ioHandleYAxisEnR,
 				&ioHandleYAxisInR,
 				&refSwitchYAxis);
 
-		Home HomeDriveX = Home(&driveCoontrolXAxis, &encoder1);
-		Home HomeDriveY = Home(&driveCoontrolYAxis, &encoder2);
+		Home HomeDriveX = Home(&driveControlXAxis, &encoderX);
+		Home HomeDriveY = Home(&driveControlYAxis, &encoderY);
+
+		Controller xController = Controller(&driveControlXAxis, &encoderX);
+		Controller yController = Controller(&driveControlYAxis, &encoderY);
 };
 
 #endif /* SRC_APPMAIN_APPLICATIONMAIN_H_ */

@@ -21,7 +21,7 @@ int32_t AngleCalculation::CalculateTargetEncoderValue(float angle)
 
 	float targetAngle = ArcSinusApproximation((PlatformArmLength/MotorArmLength) * SinusApproximation(angleRad));
 
-	return (int32_t)(targetAngle * encoderRation);
+	return (int32_t)((targetAngle * encoderRation) + ZeroDegreeEncoderValue);
 }
 
 

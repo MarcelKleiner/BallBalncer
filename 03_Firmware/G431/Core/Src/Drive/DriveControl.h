@@ -18,11 +18,8 @@ class DriveControl
 
 		IOHandle* GetRefSwitch();
 
-		bool IsHomingSttus();
+		bool IsHomingStatus();
 		void SetHomingSttus(bool homingSttus);
-
-		uint32_t GetHomingPosition();
-		void SetHomingPosition(uint32_t homingPosition);
 
 	private:
 		TIM_HandleTypeDef _timer;

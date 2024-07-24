@@ -44,6 +44,7 @@ Core/Src/Controller \
 Core/Src/Drive \
 Core/Src/Drive/Homing \
 Core/Src/Encoder/AMT102V \
+Core/Src/Error \
 Core/Src/IO \
 Core/Src/Taskhandler \
 Core/Src \

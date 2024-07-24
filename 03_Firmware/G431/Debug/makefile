@@ -17,6 +17,7 @@ RM := rm -rf
 -include Core/Startup/subdir.mk
 -include Core/Src/Taskhandler/subdir.mk
 -include Core/Src/IO/subdir.mk
+-include Core/Src/Error/subdir.mk
 -include Core/Src/Encoder/AMT102V/subdir.mk
 -include Core/Src/Drive/Homing/subdir.mk
 -include Core/Src/Drive/subdir.mk

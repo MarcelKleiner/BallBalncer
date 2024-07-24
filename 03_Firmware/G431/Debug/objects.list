@@ -6,6 +6,7 @@
 "./Core/Src/Drive/DriveControl.o"
 "./Core/Src/Drive/Homing/Home.o"
 "./Core/Src/Encoder/AMT102V/AMT102V.o"
+"./Core/Src/Error/Error.o"
 "./Core/Src/IO/IOHandle.o"
 "./Core/Src/Taskhandler/Taskhandler.o"
 "./Core/Src/adc.o"

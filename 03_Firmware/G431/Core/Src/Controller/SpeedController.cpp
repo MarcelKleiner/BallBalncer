@@ -7,9 +7,28 @@
 
 #include "SpeedController.h"
 
-SpeedController::SpeedController()
+SpeedController::SpeedController(IEncoder *encoder)
 {
-	// TODO Auto-generated constructor stub
-
+	_encoder = encoder;
 }
 
+int32_t SpeedController::Update(int32_t targetSpeed)
+{
+	currentEncoderValue = _encoder->GetValue();
+
+	currentSpeed = currentEncoderValue - lastEncoderValue;
+
+	currentSpeedError = targetSpeed - currentSpeed;
+
+	speedGainPart = speedError * speedKp;
+
+	speedErrorSummation = speedErrorSummation
+			+ ((currentSpeedError + lastSpeedError) / 2);
+
+	lastSpeedError = currentSpeedError;
+}
+
+void SpeedController::Reset()
+{
+
+}
